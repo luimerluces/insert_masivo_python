@@ -2,7 +2,6 @@ import pandas as pd
 import mysql.connector
 from mysql.connector import errorcode
 import logging
-
 # Configurar el logging básico (alternativa a print())
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
